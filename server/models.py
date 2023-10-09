@@ -1,5 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy_serializer import SerializerMixin
+from flask import Flask
+from flask_migrate import Migrate
 
 db = SQLAlchemy()
 
